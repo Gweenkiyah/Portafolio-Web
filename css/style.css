@@ -1,5 +1,6 @@
 /*Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
 /*Variables CSS*/
 :root
 {
@@ -17,6 +18,7 @@
 
     /*Font and typography*/
     --body-font: 'Roboto Slab', serif;
+    --body-font-button: 'Quicksand', sans-serif;
 
     /*.5rem= 8px, 1 rem= 16px, 1.5rem= 24px ...*/
     --biggest-font-size: 3rem;
@@ -402,6 +404,7 @@ button, input
 {
     display: inline-flex;
     align-items: center;
+    font-family: var(--body-font-button);
     column-gap: .5rem;
     background-color: var(--skin-color);
     color: var(--title-color);
